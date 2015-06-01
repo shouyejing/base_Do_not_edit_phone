@@ -1,0 +1,17 @@
+<openerp>
+    <data>
+        <record id="view_partner_form" model="ir.ui.view">
+            <field name="name">view_partner_form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <field name="phone" position="before">
+                    <field name="has_sale_order" invisible="True"/>
+                </field>
+                <field name="phone" position="attributes">
+                    <attribute name="attrs">{'readonly': [('has_sale_order','=',True)]}</attribute>
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
