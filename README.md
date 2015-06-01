@@ -1,0 +1,2 @@
+# base_Do_not_edit_phone
+如果某个partner有关系的销售订单，那么它的phone是不可以编辑的。
