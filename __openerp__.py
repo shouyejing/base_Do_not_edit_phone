@@ -8,6 +8,6 @@
         'data.xml'
     ],
     'description': """
-        Do not edit phone V1.3
+        Do not edit phone V1.5
     """
 }
